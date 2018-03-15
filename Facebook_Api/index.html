@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <title>My Profile</title>
+  <link rel="icon" href="images/header.png" type="image/png" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- attach CSS styles -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+ 
+  <nav class="navbar navbar-default navbar-fixed-top navbar-style" role="navigation">
+    <div class="container-fluid">
+    
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#" >My Page</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html" >My Profile</a></li>
+          <li><a href="feeds.html">My Feeds</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <div id="home" class="home">
+    <div class="text-vcenter">
+      <h1 style="color: white">Welcome to My Profile</h1>     
+        <button class="btn btn-dark btn-lg mb-3 mx-auto d-inline-block" id="getProfile">Explore</button>
+    </div>
+  </div>
+  
+ <div class="loader"></div>
+
+ <div class="profile"  style="background-color: #306d9f">
+  <table class="table table-responsive table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Fields</th>
+        <th scope="col">Values</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td >ID</td>
+        <td id="myId"></td>
+      </tr>
+      <tr>
+        <td>My Email</td>
+        <td id="myEmail"></td>
+      </tr>
+      <tr>
+        <td>My Hometown</td>
+        <td id="myHometown"></td>
+      </tr>
+     <tr>
+        <td>My Birthday</td>
+        <td id="myBirthday"></td>
+      </tr>
+      <tr>
+        <td>Education History</td>
+        <td>
+            <table class="table table-dark inner-table" style="background-color: transparent;">
+  <thead>
+  <tr>
+    <th>School Name</th>
+    <th>College Name </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td id="schoolName"></td>
+    <td id="collegeName"></td>
+  </tr>
+  </tbody>
+  </table>
+        </td
+        <td id="educationHistory"></td>
+      </tr>
+      <tr>
+        <td>Work History</td>
+        <td>
+          <table class="table table-dark inner-table" style="background-color: transparent;">
+            <thead>
+              <tr>
+                <th>Position</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td id="workPosition"></td>
+                <td id="workDescription"></td>
+              </tr>
+            </tbody>
+          </table>
+        </td
+
+      </tr>
+    </tbody>
+  </table>
+ </div>
+
+  <footer>
+    <div class="container">
+      <p class="text-center">Copyright &copy; My Page 2018</p>
+    </div>
+  </footer>
+  
+
+ 
+  <!-- <script src="js/jquery-3.2.1.min.js"></script> -->
+   <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

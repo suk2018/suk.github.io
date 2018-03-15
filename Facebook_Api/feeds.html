@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <title>My Profile</title>
+  <link rel="icon" href="images/header.png" type="image/png" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- attach CSS styles -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+ 
+  <nav class="navbar navbar-default navbar-fixed-top navbar-style" role="navigation">
+    <div class="container-fluid">
+    
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html" >My Page</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html" >My Profile</a></li>
+          <li><a href="feeds.html">My Feeds</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ 
+  <div id="home" class="home">
+    <div class="text-vcenter">
+      <h1 style="color: white">Check My Feeds here !</h1>     
+        <button class="btn btn-dark btn-lg mb-3 mx-auto d-inline-block" id="getFeed">Explore</button>
+    </div>
+  </div>
+  
+ <div class="loader"></div>
+ <div class="feedsInfo" id="feeds-info-wrapper">
+
+  <footer>
+    <div class="container fixed-bottom" id ="footer">
+      <p class="text-center">Copyright &copy; My Page 2018</p>
+    </div>
+  </footer>
+  
+
+ 
+   <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

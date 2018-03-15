@@ -1,0 +1,80 @@
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  display: none;
+  margin: 10px auto;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+ /**/ background: url(../images/head.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-style{
+
+  background-color: #306d9f;
+  
+}
+
+.profile{
+
+  color: white;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
